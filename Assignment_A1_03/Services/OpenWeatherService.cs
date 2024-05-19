@@ -21,7 +21,10 @@ namespace Assignment_A1_03.Services
         ConcurrentDictionary<(string, string), Forecast> cachedCityForecasts = new ConcurrentDictionary<(string, string), Forecast>();
 
         // Your API Key
-        readonly string apiKey = "b87c954beb6026a081aa85374b8f9c58";
+        readonly string apiKey = "";
+        /* Get API from 
+       https://openweathermap.org/
+      */
 
         //Event declaration
         public event EventHandler<string> WeatherForecastAvailable;

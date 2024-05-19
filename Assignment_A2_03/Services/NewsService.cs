@@ -18,7 +18,11 @@ namespace Assignment_A2_03.Services
         HttpClient httpClient = new HttpClient();
         ConcurrentDictionary<NewsCategory, News> CachedNewsSerivce = new ConcurrentDictionary<NewsCategory, News>();
         // Your API Key
-        readonly string apiKey = "7b61bedd353040fa8829ded067c3b01a";
+        readonly string apiKey = "";
+        /* Get API from 
+     https://newsapi.org/
+       */
+
         #region Stuff
         public NewsService()
         {
