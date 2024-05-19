@@ -2,6 +2,8 @@
 
 <H2>Basic functions</H2>
 <p>This project is split into 2 parts. A1 (Weather) and A2 (News). Each part having multiple steps of progression in the code.</p>
+<p>Part A1 focuses on weather, displaying weather at a set location and at a location the user specifies</p>
+<p>Part A2 focuses on news, displays local news.</p>
 
 <h3>Weather part</h3>
 <P>This app displays basic weather information about the pre-selected area. Includes Temperature, windspeed and humidity.</P>
