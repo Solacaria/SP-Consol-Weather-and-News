@@ -17,10 +17,8 @@ namespace Assignment_A1_01.Services
         HttpClient httpClient = new HttpClient();
 
         // Your API Key
-        readonly string apiKey = "";
-        /* Get API from 
-          https://openweathermap.org/
-         */
+        readonly string apiKey = "b87c954beb6026a081aa85374b8f9c58 ";
+   
 
 
         public async Task<Forecast> GetForecastAsync(double latitude, double longitude)

@@ -22,10 +22,8 @@ namespace Assignment_A2_04.Services
         ConcurrentDictionary<string, News> CachedNewsSerivce = new ConcurrentDictionary<string, News>();
 
         // Your API Key
-        readonly string apiKey = "";
-        /* Get API from 
-     https://newsapi.org/
-       */
+        readonly string apiKey = "7b61bedd353040fa8829ded067c3b01a";
+
 
 
         public NewsService()

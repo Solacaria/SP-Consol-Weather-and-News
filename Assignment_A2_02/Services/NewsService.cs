@@ -17,10 +17,8 @@ namespace Assignment_A2_02.Services
         HttpClient httpClient = new HttpClient();
 
         // Your API Key
-        readonly string apiKey = "";
-        /* Get API from 
-     https://newsapi.org/
-       */
+        readonly string apiKey = "7b61bedd353040fa8829ded067c3b01a";
+   
 
         public NewsService()
         {
